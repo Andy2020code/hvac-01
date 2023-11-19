@@ -1,0 +1,481 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Josefin Sans', sans-serif;
+    list-style: none;
+    text-decoration: none;
+  }
+  body {
+    background: #E8ECF1;
+  }
+  
+
+nav{
+  position:fixed;
+  top: 0px;
+  display: flex;
+  height: 80px;
+  width: 100%;
+  background: #f0faff;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 50px 0 100px;
+  flex-wrap: wrap;
+  z-index: 10;
+}
+nav .logo{
+  color: #B5CFD8;
+  font-size: 28px;
+  font-weight: 600;
+}
+nav ul{
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  z-index: 10;
+}
+nav ul li{
+  margin: 0 5px;
+}
+nav ul li a{
+  color: #B5CFD8;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 500;
+  padding: 8px 15px;
+  border-radius: 5px;
+  letter-spacing: 1px;
+  transition: all 0.3s ease;
+}
+nav ul li a.active,
+nav ul li a:hover{
+  color: #f0faff;
+  background: #B5CFD8;
+}
+nav .menu-btn i{
+  color: #4A5C42;
+  font-size: 22px;
+  cursor: pointer;
+  display: none;
+}
+input[type="checkbox"]{
+  display: none;
+}
+@media (max-width: 1000px){
+  nav{
+    padding: 0 40px 0 50px;
+  }
+}
+@media (max-width: 920px) {
+  nav .menu-btn i{
+    display: block;
+  }
+  #click:checked ~ .menu-btn i:before{
+    content: "\f00d";
+  }
+  nav ul{
+    position: fixed;
+    top: 80px;
+    left: -100%;
+    background: #fff;
+    height: 100vh;
+    width: 100%;
+    text-align: center;
+    display: block;
+    transition: all 0.3s ease;
+  }
+  #click:checked ~ ul{
+    left: 0;
+  }
+  nav ul li{
+    width: 100%;
+    margin: 40px 0;
+  }
+  nav ul li a{
+    width: 100%;
+    margin-left: -100%;
+    display: block;
+    font-size: 20px;
+    transition: 0.6s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  }
+  #click:checked ~ ul li a{
+    margin-left: 0px;
+  }
+  nav ul li a.active,
+  nav ul li a:hover{
+    background-color: 0;
+    color: #4A5C42;
+  }
+}
+
+  /*---navigation header ---*/
+
+
+  .top-bg{
+    width: 100%;
+    height: 50vh;
+    background-image: url(/static/IMG/blog-img/bg.jpg);
+    background-size: cover;
+    background-position: 0px -200px;
+    margin-top: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .top-bg h1{
+    padding: 10px;
+    border-radius: 20px;
+    font-size: 60px;
+    background: linear-gradient(to bottom, rgba(255,255,255,0.5), rgba(255,255,255,0.6));;
+    color: #444;
+  }
+
+  @media(max-width: 500px){
+    .top-bg{
+      background-position: -200px 0px;
+    }
+
+    .top-bg h1{
+      font-size: 40px;
+    }
+  }
+  
+  .ythac-layout{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .text-card-content{
+    width: 800px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 50px 10px;
+  }
+
+  .highligted-text{
+    font-size: 17px;
+    font-family: "termina", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+  }
+
+  .text-card-content h1{
+    font-size: 40px;
+    text-align: left;
+    font-family: "termina", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    color: #444;
+  }
+
+  .text-01{
+    font-size: 15px;
+    text-align: left;
+    font-family: "termina", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    color: #444;
+    line-height: 20px;
+  }
+
+  .text-02{
+    font-size: 19px;
+    text-align: center;
+    font-family: "termina", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    color: #444;
+    line-height: 20px;
+    margin: 20px 10px;
+  }
+
+  .text-03{
+    font-size: 17px;
+    text-align: center;
+    font-family: "termina", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    color: #444;
+    line-height: 20px;
+    margin: 20px 10px;
+  }
+
+  .text-04{
+    font-size: 17px;
+    text-align: center;
+    font-family: "termina", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    color: #444;
+    line-height: 20px;
+    margin: 20px 10px;
+  }
+
+  .highligted-text-02{
+    text-align: center;
+    font-size: 17px;
+    font-family: "termina", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+  }
+
+  .contact-us-01{
+    width: 200px;
+    height: 50px;
+    background-color: #7393A7;
+    border: 0px;
+    border-radius: 15px;
+    font-family: "termina", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    position: relative;
+    left: 300px;
+    margin: 30px 10px;
+  }
+
+  .contact-us-01:hover{
+    background-color: #D6E6F2;
+    border: 2px solid black;
+    color: #444;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+
+  .right-img-ythac{
+    width: 500px;
+    overflow: hidden;
+    position: relative;
+    bottom: 30px;
+    border-radius: 20px;
+  }
+
+  .right-img-ythac img{
+    width: 800px;
+  }
+
+  @media(max-width: 500px){
+    .ythac-layout{
+      width: 100%;
+      flex-direction: column;
+    }
+
+    .text-card-content{
+      width: 100%;
+    }
+
+    .text-card-content h1{
+      width: 100%;
+      padding: 10px;
+      font-size: 25px;
+      text-align: center;
+      align-items: center;
+    }
+
+    .text-01{
+      font-size: 15px;
+      text-align: center;
+    }
+
+    .contact-us-01{
+      left: 85px;
+    }
+
+    .right-img-ythac{
+      width: 90%;
+      overflow: hidden;
+      position: relative;
+      bottom: 0px;
+    }
+
+    .right-img-ythac img{
+      width: 600px;
+    }
+  }
+
+
+  .htkfv-layout{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .htkfv-card-01{
+    width: 700px;
+    background-color: #D6E6F2;
+    padding: 10px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 20px;
+  }
+
+  .htkfv-card-02{
+    width: 700px;
+    background-color: #D6E6F2;
+    padding: 10px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 20px;
+  }
+  
+  .htkfv-title{
+    font-size: 20px;
+    font-family: "termina", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+  }
+
+  .htkfv-btn-01{
+    width: 200px;
+    height: 40px;
+    background-color: #f0faff;
+    color: #444;
+    border: 0px;
+    border-radius: 10px;
+    font-family: "termina", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    margin: 20px 10px;
+  }
+
+  .htkfv-btn-01:hover{
+    background-color: #7393A7;
+    color: #444;
+    border: 2px solid white;
+    cursor: pointer;
+    transition: .3s;
+  }
+
+  @media (max-width: 500px){
+    .htkfv-layout{
+      flex-direction: column;
+    }
+
+    .htkfv-card-01{
+      width: 350px;
+    }
+
+    .htkfv-title{
+      text-align: center;
+    }
+
+    .htkfv-card-02{
+      width: 350px;
+    }
+  }
+
+   /*---foot bar ---*/
+.container_03{
+  width: 100%;
+  margin: auto;
+}
+.row{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.ul{
+  list-style: none;
+}
+
+  .footer{
+    background-color: #B5CFD8;
+    padding: 70px 0;
+  }
+
+  .footer-col{
+    width: 25%;
+    padding: 0 15px;
+  }
+
+  .footer-col h4{
+    font-size: 18px;
+    color: #444;
+    text-transform: capitalize;
+    margin-bottom: 35px;
+    font-weight: 500;
+    position: relative;
+  }
+
+  .footer-col h4::before{
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    background-color: #e91e63;
+    height: 2px;
+    box-sizing: border-box;
+    width: 50px;
+  }
+
+.footer-col ul li:not(:last-child){
+  margin-bottom: 10px;
+}
+
+.footer-col ul li a{
+  font-size: 16px;
+  text-transform: capitalize;
+  color: #444;
+  text-decoration: none;
+  font-weight: 300;
+  color: #000;
+  display: block;
+  transition: all 0.3s ease;
+}
+
+
+.footer ul li a:hover{
+  color: #fff;
+  padding-left: 8px;
+}
+
+.footer-col .social-links a{
+  display: inline-block;
+  height: 40px;
+  width: 40px;
+  background: rgba(255, 255, 2555, 0.2);
+  margin: 0 10px 10px 0;  
+  text-align: center;
+  line-height: 40px;
+  border-radius: 50%;
+  color: #fff;
+  transition: all 0.5s ease;
+}
+
+.footer-col .social-links a:hover{
+  color: #24262b;
+  background-color: #fff;
+}
+
+.social-links img{
+  width: 40px;
+  border-radius: 50px;
+  border: 2px solid white;
+}
+
+/*responsive*/
+@media(max-width: 767px){
+  .footer-col {
+    width: 50%;
+    margin-bottom: 30px;
+
+  }
+
+  .footer-col {
+    width: 90%;
+
+  }
+}

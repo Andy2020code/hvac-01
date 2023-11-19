@@ -1,0 +1,227 @@
+    .div-01{
+        width: 100%;
+        height: 70px;
+        background-color: #7393A7;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .div-01 h1{
+        font-family: "termina", sans-serif;
+        font-weight: 600;
+        font-style: normal;
+        text-align: center;
+        color: #fff;
+    }
+
+    .div-02{
+        padding: 10px;
+        background-color: #D6E6F2;
+        border-radius: 20px;
+        margin: 50px 0px;
+        position: relative;
+        right: 30%;
+    }
+
+
+
+    .div-02 h1{
+        font-size: 25px;
+        font-family: "termina", sans-serif;
+        font-weight: 600;
+        font-style: normal;
+        text-align: center;
+        margin: 10px 10px;
+    }
+
+    .div-02 p{
+        font-size: 13px;
+        text-align: center;
+        font-family: "termina", sans-serif;
+        font-weight: 300;
+        font-style: normal;
+    }
+
+    .steps-layout{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .step-01{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .step-02{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .step-03{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .step-04{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .step-05{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .step-06{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .step-07{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .step-08{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .step-09{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .step-10{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .step-01 img{
+        width: 80px;
+        
+    }
+
+    .step-02 img{
+        width: 80px;
+        
+    }
+
+    .step-03 img{
+        width: 80px;
+        
+    }
+
+    .step-04 img{
+        width: 80px;
+        
+    }
+
+    .step-05 img{
+        width: 80px;
+        
+    }
+
+    .step-06 img{
+        width: 80px;
+        
+    }
+
+    .step-07 img{
+        width: 80px;
+        
+    }
+
+    .step-08 img{
+        width: 80px;
+        
+    }
+
+    .step-09 img{
+        width: 80px;
+        
+    }
+
+    .step-10 img{
+        width: 80px;
+        
+    }
+
+    .text-content{
+        margin: 10px 50px;
+        width: 800px;
+        background-color: #D6E6F2;
+        border-radius: 20px;
+        padding: 10px
+    }
+
+    .text-content-02{
+        margin: 10px 50px;
+        width: 800px;
+        background-color: #7393A7;
+        border-radius: 20px;
+        padding: 10px
+    }
+
+    .text-content h1{
+        font-size: 25px;
+        font-family: "termina", sans-serif;
+        font-weight: 600;
+        font-style: normal;
+        text-align: center;
+    }
+
+    .text-content-02 h1{
+        font-size: 25px;
+        font-family: "termina", sans-serif;
+        font-weight: 600;
+        font-style: normal;
+        text-align: center;
+    }
+
+    .text-content p{
+        font-family: "termina", sans-serif;
+        font-weight: 300;
+        font-style: normal;
+        text-align: center;
+    }
+
+    .text-content-02 p{
+        font-family: "termina", sans-serif;
+        font-weight: 300;
+        font-style: normal;
+        text-align: center;
+    }
+
+    .list-01{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        font-size: 15px;
+        font-family: "termina", sans-serif;
+        font-weight: 500;
+        font-style: normal;
+    }
+
+    .go-btn{
+        font-family: "termina", sans-serif;
+        font-weight: 300;
+        font-style: normal;
+        position: relative;
+        right: 31wwwwwwwww0px;
+    }
