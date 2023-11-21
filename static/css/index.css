@@ -338,6 +338,7 @@ input[type="checkbox"]{
       background-size: 230%;
       background-position: -200px -100px;
       border-radius: 20px;
+      margin-bottom: 20px;
     }
 
     .loc-div{
@@ -345,9 +346,13 @@ input[type="checkbox"]{
       height: 65vh;
     }
 
+    .loc-div p{
+      margin: 10px 0px;
+    }
+  
     .loc-div h1{
-      margin: 0px 20px;
-      font-size: 20px;
+      margin: 10px 0px;
+      font-size: 16px;
       font-family: "termina", sans-serif;
       font-weight: 600;
       font-style: normal;
