@@ -343,16 +343,12 @@ input[type="checkbox"]{
 
     .loc-div{
       width: 350px;
-      height: 65vh;
+      height: 75vh;
     }
 
-    .loc-div p{
-      margin: 10px 0px;
-    }
-  
     .loc-div h1{
-      margin: 10px 0px;
-      font-size: 16px;
+      margin: 0px 20px;
+      font-size: 18px;
       font-family: "termina", sans-serif;
       font-weight: 600;
       font-style: normal;
@@ -527,7 +523,7 @@ input[type="checkbox"]{
     font-weight: 400;
     font-style: normal;
     position: relative;
-    left: 145px;
+    left: 100px;
     margin: 20px 20px;
     cursor: pointer;
   }
@@ -657,6 +653,7 @@ input[type="checkbox"]{
 
     .request-service-layout{
       width: 350px;
+      height: 485px;
     }
 
     .qeac-layout{
@@ -894,6 +891,7 @@ input[type="checkbox"]{
   width: 350px;
   text-align: center;
   font-size: 15px;
+}
 }
 
 
