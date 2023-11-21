@@ -205,6 +205,26 @@ input[type="checkbox"]{
     border-top-left-radius: 10px;
   }
 
+  .card-img-01{
+    width: 400px;
+    height: 200px;
+    background-image: url(/static/IMG/2ndcard.jpg);
+    background-size: 100%;
+    background-position: 0px -60px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+  }
+
+  .card-img-02{
+    width: 400px;
+    height: 200px;
+    background-image: url(/static/IMG/1st-card.jpg);
+    background-size: 100%;
+    background-position: 0px -60px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+  }
+
   .card h1{
     margin-top: 30px;
     padding: 0px 20px;
@@ -709,6 +729,109 @@ input[type="checkbox"]{
     }
   
   }
+
+
+
+
+.div-03-layout{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.div-03-img{
+  border-radius: 10px;
+  width: 700px;
+}
+
+.div-03-text-content-01{
+  width: 900px;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.title-01-div-03{
+  text-align: center;
+  font-family: "termina", sans-serif;
+  font-weight: 600;
+  font-size: 20px;
+  margin: 10px 0px;
+}
+
+.title-02-div-03{
+  text-align: left;
+  font-family: "termina", sans-serif;
+  font-weight: 600;
+  font-size: 15px;
+  margin: 10px 0px;
+}
+
+.div-03-description-01{
+  width: 800px;
+  text-align: center;
+  font-family: "termina", sans-serif;
+  font-weight: 300;
+  font-size: 15px;
+  line-height: 20px;
+}
+
+
+.div-04-layout{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.div-04-img{
+  border-radius: 10px;
+  width: 500px;
+  margin: 20px 0px;
+}
+
+.div-04-text-content-01{
+  width: 900px;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.title-01-div-03{
+  text-align: center;
+  font-family: "termina", sans-serif;
+  font-weight: 600;
+  font-size: 20px;
+  margin: 10px 0px;
+}
+
+.title-02-div-03{
+  text-align: left;
+  font-family: "termina", sans-serif;
+  font-weight: 600;
+  font-size: 15px;
+  margin: 10px 0px;
+}
+
+.div-03-description-01{
+  width: 800px;
+  text-align: center;
+  font-family: "termina", sans-serif;
+  font-weight: 300;
+  font-size: 15px;
+  line-height: 20px;
+}
+
+
+
+
+
+
 
 
     /*---foot bar ---*/
