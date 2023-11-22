@@ -182,7 +182,7 @@
     width: 100%;
     height: auto;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
     margin: 50px 0px;
   }
 
@@ -279,7 +279,7 @@
 
   @media (max-width:1400px){
     .div-01-body{
-      width: 1300px;
+      max-width: 100%;
       overflow: hidden;
       display: flex;
       flex-direction: row;
