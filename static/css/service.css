@@ -148,15 +148,10 @@ input[type="checkbox"]{
   .specialities-layout{
     width: 100%;
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
     justify-content: center;
 
-  }
-
-  @media(max-width:500px){
-    .specialities-layout{
-      flex-direction: column;
-    }
   }
 
   .card01{
@@ -192,6 +187,35 @@ input[type="checkbox"]{
     font-style: normal;
     margin: 10px 10px;
   }
+
+
+  @media (max-width: 1400px){
+    .specialities-layout{
+      width: 100%;
+      height: auto;
+      justify-content: space-evenly;
+    }
+
+    .card01{
+      width: 300px;
+      height: 400px;
+      background-color: #7393A7;
+      margin: 20px 20px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      border-radius: 15px;
+    }
+  }
+
+  @media(max-width:500px){
+    .specialities-layout{
+      flex-direction: column;
+    }
+  }
+
+
 
     /*---foot bar ---*/
 .container_03{
