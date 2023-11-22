@@ -882,13 +882,6 @@
 .title-02-div-03{
   font-size: 15px;
 }
-
-.div-03-description-01{
-  width: 350px;
-  text-align: center;
-  font-size: 15px;
-}
-
   
 }
 
@@ -938,6 +931,18 @@
   font-weight: 300;
   font-size: 15px;
   line-height: 20px;
+}
+
+@media (max-width: 1400px){
+  .div-04-text-content-01{
+    width: 500px;
+  }
+
+  .div-03-description-01{
+    width: 500px;
+    text-align: center;
+    font-size: 15px;
+  }
 }
 
 @media (max-width: 500px){
