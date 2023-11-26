@@ -993,9 +993,13 @@
     width: 370px;
     margin: 20px 0px;
   }
-  
+
   .div-03-text-content-01{
     width: 100%;
+  }
+  
+  .div-03-text-content-01 p{
+    width: 350px;
   }
 
   .title-01-div-03{
@@ -1006,6 +1010,7 @@
 .title-02-div-03{
   font-size: 15px;
 }
+
   
 }
 
