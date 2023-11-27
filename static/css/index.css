@@ -915,7 +915,7 @@
 }
 
 @media (max-width: 1600px){
-  .div-03-text-content-01{
+  .div-03-text-content-01 p{
     width: 700px;
   }
 }
