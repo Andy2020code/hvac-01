@@ -244,16 +244,46 @@
     width: 300px;
   }
 
-  @media(max-width: 160px){
+  @media(max-width: 500px){
+    .dc-layout{
+      flex-direction: column;
+      height: auto;
+    }
+
     .dc-left-div{
-      width: 600px;
+      width: 370px;
       height: 45vh;
       display: flex;
       flex-direction: column;
       justify-content: center;
       align-items: center;
+      margin: 0px 20px;
+    }
+
+    .dc-title{
+      padding-top: 50px;
+    }
+
+    .dc-title-01{
+      text-align: center;
+    }
+
+    .dc-text-01{
+      width: 370px;
+      text-align: center;
     }
   
+    .dc-right-div{
+      width: 100%;
+      margin-top: 70px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .dc-right-div img{
+      width: 250px;
+    }
   }
 
 
